@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/doeringc/Projects/clauncher/build",
+  "command": "/usr/bin/cc  -I/home/doeringc/Projects/clauncher/include -g -std=gnu11 -o CMakeFiles/clauncher.dir/src/main.c.o -c /home/doeringc/Projects/clauncher/src/main.c",
+  "file": "/home/doeringc/Projects/clauncher/src/main.c"
+}
+]
