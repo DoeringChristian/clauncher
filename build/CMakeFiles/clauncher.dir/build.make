@@ -69,10 +69,24 @@ include CMakeFiles/clauncher.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clauncher.dir/flags.make
 
+CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o: CMakeFiles/clauncher.dir/flags.make
+CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o: ../lib/Cjp/src/jp.c
+CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o: CMakeFiles/clauncher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o -MF CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o.d -o CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o -c /home/doeringc/Projects/clauncher/lib/Cjp/src/jp.c
+
+CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doeringc/Projects/clauncher/lib/Cjp/src/jp.c > CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.i
+
+CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doeringc/Projects/clauncher/lib/Cjp/src/jp.c -o CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.s
+
 CMakeFiles/clauncher.dir/src/main.c.o: CMakeFiles/clauncher.dir/flags.make
 CMakeFiles/clauncher.dir/src/main.c.o: ../src/main.c
 CMakeFiles/clauncher.dir/src/main.c.o: CMakeFiles/clauncher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clauncher.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clauncher.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clauncher.dir/src/main.c.o -MF CMakeFiles/clauncher.dir/src/main.c.o.d -o CMakeFiles/clauncher.dir/src/main.c.o -c /home/doeringc/Projects/clauncher/src/main.c
 
 CMakeFiles/clauncher.dir/src/main.c.i: cmake_force
@@ -83,17 +97,35 @@ CMakeFiles/clauncher.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clauncher.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doeringc/Projects/clauncher/src/main.c -o CMakeFiles/clauncher.dir/src/main.c.s
 
+CMakeFiles/clauncher.dir/src/pop_launcher.c.o: CMakeFiles/clauncher.dir/flags.make
+CMakeFiles/clauncher.dir/src/pop_launcher.c.o: ../src/pop_launcher.c
+CMakeFiles/clauncher.dir/src/pop_launcher.c.o: CMakeFiles/clauncher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clauncher.dir/src/pop_launcher.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clauncher.dir/src/pop_launcher.c.o -MF CMakeFiles/clauncher.dir/src/pop_launcher.c.o.d -o CMakeFiles/clauncher.dir/src/pop_launcher.c.o -c /home/doeringc/Projects/clauncher/src/pop_launcher.c
+
+CMakeFiles/clauncher.dir/src/pop_launcher.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clauncher.dir/src/pop_launcher.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doeringc/Projects/clauncher/src/pop_launcher.c > CMakeFiles/clauncher.dir/src/pop_launcher.c.i
+
+CMakeFiles/clauncher.dir/src/pop_launcher.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clauncher.dir/src/pop_launcher.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doeringc/Projects/clauncher/src/pop_launcher.c -o CMakeFiles/clauncher.dir/src/pop_launcher.c.s
+
 # Object files for target clauncher
 clauncher_OBJECTS = \
-"CMakeFiles/clauncher.dir/src/main.c.o"
+"CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o" \
+"CMakeFiles/clauncher.dir/src/main.c.o" \
+"CMakeFiles/clauncher.dir/src/pop_launcher.c.o"
 
 # External object files for target clauncher
 clauncher_EXTERNAL_OBJECTS =
 
+clauncher: CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o
 clauncher: CMakeFiles/clauncher.dir/src/main.c.o
+clauncher: CMakeFiles/clauncher.dir/src/pop_launcher.c.o
 clauncher: CMakeFiles/clauncher.dir/build.make
 clauncher: CMakeFiles/clauncher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable clauncher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable clauncher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clauncher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o"
+  "CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o.d"
   "CMakeFiles/clauncher.dir/src/main.c.o"
   "CMakeFiles/clauncher.dir/src/main.c.o.d"
+  "CMakeFiles/clauncher.dir/src/pop_launcher.c.o"
+  "CMakeFiles/clauncher.dir/src/pop_launcher.c.o.d"
   "clauncher"
   "clauncher.pdb"
 )

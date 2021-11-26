@@ -129,6 +129,30 @@ clauncher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/build
 .PHONY : clauncher/fast
 
+lib/Cjp/src/jp.o: lib/Cjp/src/jp.c.o
+.PHONY : lib/Cjp/src/jp.o
+
+# target to build an object file
+lib/Cjp/src/jp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.o
+.PHONY : lib/Cjp/src/jp.c.o
+
+lib/Cjp/src/jp.i: lib/Cjp/src/jp.c.i
+.PHONY : lib/Cjp/src/jp.i
+
+# target to preprocess a source file
+lib/Cjp/src/jp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.i
+.PHONY : lib/Cjp/src/jp.c.i
+
+lib/Cjp/src/jp.s: lib/Cjp/src/jp.c.s
+.PHONY : lib/Cjp/src/jp.s
+
+# target to generate assembly for a file
+lib/Cjp/src/jp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/lib/Cjp/src/jp.c.s
+.PHONY : lib/Cjp/src/jp.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -153,6 +177,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/pop_launcher.o: src/pop_launcher.c.o
+.PHONY : src/pop_launcher.o
+
+# target to build an object file
+src/pop_launcher.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/src/pop_launcher.c.o
+.PHONY : src/pop_launcher.c.o
+
+src/pop_launcher.i: src/pop_launcher.c.i
+.PHONY : src/pop_launcher.i
+
+# target to preprocess a source file
+src/pop_launcher.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/src/pop_launcher.c.i
+.PHONY : src/pop_launcher.c.i
+
+src/pop_launcher.s: src/pop_launcher.c.s
+.PHONY : src/pop_launcher.s
+
+# target to generate assembly for a file
+src/pop_launcher.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/src/pop_launcher.c.s
+.PHONY : src/pop_launcher.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... clauncher"
+	@echo "... lib/Cjp/src/jp.o"
+	@echo "... lib/Cjp/src/jp.i"
+	@echo "... lib/Cjp/src/jp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pop_launcher.o"
+	@echo "... src/pop_launcher.i"
+	@echo "... src/pop_launcher.s"
 .PHONY : help
 
 

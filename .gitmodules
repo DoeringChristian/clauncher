@@ -1,0 +1,6 @@
+[submodule "lib/Cjp"]
+	path = lib/Cjp
+	url = https://github.com/DoeringChristian/Cjp.git
+[submodule "lib/darray"]
+	path = lib/darray
+	url = https://github.com/DoeringChristian/darray.git
