@@ -81,12 +81,12 @@ clean: CMakeFiles/clauncher.dir/clean
 CMakeFiles/clauncher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clauncher.dir/build.make CMakeFiles/clauncher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=1,2,3,4 "Built target clauncher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doeringc/Projects/clauncher/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target clauncher"
 .PHONY : CMakeFiles/clauncher.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clauncher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/clauncher/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/clauncher/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clauncher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/doeringc/Projects/clauncher/build/CMakeFiles 0
 .PHONY : CMakeFiles/clauncher.dir/rule
